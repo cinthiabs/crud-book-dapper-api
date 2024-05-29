@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6eMvnLuFmaGkTp8C/YTUDWvZrqKAnQ9eCzdfLkiyT98M+lDeQhkC5zyuaLFYSHDji0CANfeLmQxpRKEIKM05yg==",
+  "dgSpecHash": "6x8Mv/Vz827IWH7dUAEXCjU4fOuzI6GkSXzZAXQ5yMctCnYk7PRNWb67QgB/jzfXkMlw9yYVD1fh/flU1f3+Wg==",
   "success": true,
-  "projectFilePath": "C:\\GITHUB\\CrudDapper\\CrudDapper\\CrudDapper.csproj",
+  "projectFilePath": "C:\\GITHUB\\crud-book-dapper-api\\CrudDapper\\CrudDapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GITHUB\\CrudDapper\\CrudDapper\\CrudDapper.csproj": {}
+    "C:\\GITHUB\\crud-book-dapper-api\\CrudDapper\\CrudDapper.csproj": {}
   },
   "projects": {
-    "C:\\GITHUB\\CrudDapper\\CrudDapper\\CrudDapper.csproj": {
+    "C:\\GITHUB\\crud-book-dapper-api\\CrudDapper\\CrudDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GITHUB\\CrudDapper\\CrudDapper\\CrudDapper.csproj",
+        "projectUniqueName": "C:\\GITHUB\\crud-book-dapper-api\\CrudDapper\\CrudDapper.csproj",
         "projectName": "CrudDapper",
-        "projectPath": "C:\\GITHUB\\CrudDapper\\CrudDapper\\CrudDapper.csproj",
+        "projectPath": "C:\\GITHUB\\crud-book-dapper-api\\CrudDapper\\CrudDapper.csproj",
         "packagesPath": "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\",
-        "outputPath": "C:\\GITHUB\\CrudDapper\\CrudDapper\\obj\\",
+        "outputPath": "C:\\GITHUB\\crud-book-dapper-api\\CrudDapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

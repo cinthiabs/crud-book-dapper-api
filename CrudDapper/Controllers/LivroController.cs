@@ -29,8 +29,8 @@ namespace CrudDapper.Controllers
         public async Task<ActionResult<Livro>> GetLivroById(int id)
         {
             Livro livro = await _livroInterface.GetLivroById(id);
-            if (livro == null)
-                return NotFound("Nenhum registro localizado!");
+            if (livro is null)
+                return NotFound($"Registro ID {id} não localizado!");
 
             return Ok(livro);
         }
@@ -44,7 +44,7 @@ namespace CrudDapper.Controllers
         public async Task<ActionResult<IEnumerable<Livro>>> UpdateLivro(Livro livro)
         {
             Livro registro = await _livroInterface.GetLivroById(livro.Id);
-            if (registro == null)
+            if (registro is null)
                 return NotFound("Registro não localizado!");
 
             IEnumerable<Livro> livros = await _livroInterface.UpdateLivro(livro);
@@ -54,8 +54,8 @@ namespace CrudDapper.Controllers
         public async Task<ActionResult<IEnumerable<Livro>>> DeleteLivro(int id)
         {
             Livro registro = await _livroInterface.GetLivroById(id);
-            if (registro == null)
-                return NotFound("Registro não localizado!");
+            if (registro is null)
+                return NotFound($"Registro ID {id} não localizado!");
 
             IEnumerable<Livro> livros = await _livroInterface.DeleteLivro(id);
             return Ok(livros);
